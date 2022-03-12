@@ -1,0 +1,200 @@
+*{
+    margin:0;
+    padding: 0;
+}
+/*---------Navbar---------*/
+.container{
+    width: 1140px;
+margin: 0 auto;
+}
+#nav{
+   
+    background: linear-gradient(180deg,#BD7344 -47.77%,#A64F67 51.52%,#1A2A6C 143.86%);
+    width: 100%;
+    height: 90px;
+    margin-top: 0;
+    z-index: 700;
+}
+.navbar-item{
+    float: right;
+    text-decoration: none;
+    margin-top: 30px;
+    font-size: 20px;
+    
+    margin-right: 70px;
+    color: white;
+}
+.icons{
+   float: right;
+   text-decoration: none;
+   margin-top: 28px;
+   font-size: 20px;
+   margin-left: 10px;
+   color: white;
+   opacity: 0.6;
+}
+.container .icons img{
+    width: 40px;
+    color: white;
+    clip-path: circle(40%);
+   
+}
+.container .icons #bayraq{
+    clip-path: circle(40%);
+}
+.container a img{
+    width: 150px;
+    
+}
+
+
+/*Header*/
+.header{
+    
+   
+}
+.box1{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+ width: 1150px;
+ height: 500px;
+ background-color:white;
+ border: 1px solid gray;
+}
+.box2{
+    position: relative;
+   top: 500px;
+    background-color: white;
+    border: 1px solid gray;
+    margin: 150px;
+    width:1050px ;
+    height: 300px;
+}
+.cards{
+    width: 300px;
+    height: 450px;
+    background-color:white;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2) ;
+      
+    float: left;
+}
+
+#card1{
+    position: relative;
+    top: 450px;
+    left: 100px;
+   margin-bottom: 10px;
+   z-index: 1;
+}
+#card2{
+    position: relative;
+    top:530px;
+    left:230px ;
+    z-index: 1;
+}
+#card3{
+    position: relative;
+    top: 625px;
+    left: 340px;
+    z-index: 1;
+}
+.card-item{
+    margin-top: 50px;
+    margin-left: 75px;
+    color: black;
+   opacity: 0.9;
+   
+   
+}
+.cards a{
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+.cards:hover{
+    box-shadow: 0 16px 20px rgba(0,0,0,0.5) ;
+}
+/*------------FOOTER*------------*/
+.footer{
+    position: absolute;
+  top:1500px ;
+  left: 0px;
+    width: 1350px;
+    height: 500px;
+    background: linear-gradient(180deg,#BD7344 -47.77%,#A64F67 51.52%,#1A2A6C 143.86%);
+    clip-path: polygon(0 0,100% 60%,100% 100%,0% 100%);
+    overflow: hidden;
+}
+.footercard{
+    width: 300px;
+    height: 70px;
+    background-color: #C8C9C4;
+    
+     
+}
+.footercard:hover{
+    background-color: gray;
+}
+#card4{
+    position: relative;
+    top: 170px;
+    left: 100px;
+   
+}
+#card5{
+    position: relative;
+    top: 190px;
+    left: 530px;
+}
+#card6{
+    position: absolute;
+    top: 370px;
+   left: 945px ;
+    
+}
+ .footer a{
+    text-decoration: none;
+    text-align: center;
+    
+    color: white;
+}
+.footercard h1{
+    font-size: 45px;
+    margin-top: auto;
+   
+}
+.button{
+    width: 43px;
+    height: 43px;
+    border-radius: 5px;
+    background-color: #B39FB4;
+    font-size: 43px;
+    color: #724269;
+}
+#iconx{
+    position: absolute;
+    top: 300px;
+    left: 1200px;
+}
+.footer ul li{
+    display: inline-block;
+    margin-left: 16px;
+    margin-top:  290px ;
+    
+}
+
+
+.footer ul{
+    margin-left: 550px;
+}
+.p{
+    position: absolute;
+    top: 390px;
+    left: 30px;
+   display: inline;
+   color: white;
+    
+}
+

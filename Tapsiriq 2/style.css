@@ -1,0 +1,193 @@
+
+/*->>>>>>>>>>>>>>>>Navigasiya Paneli<<<<<<<<<<<<<<<<<<<<<<<<*/
+#nav{
+    position: absolute;
+    width: 1360px;
+    height: 100px;
+   top: 0;
+    left: 0;
+    background: linear-gradient(90deg, #BD7344 -8.03%,#A64F67 109.2%);
+}
+
+
+#logo-img{
+    position: absolute;
+    left: 5.56%;
+    right: 87.57%;
+    width: 130px;
+    bottom: 20.18%;
+}
+.nav-link{
+  float: right;
+  margin-right: 6.03% ;
+  text-decoration: none;
+ margin-top: 47%;
+ margin-top: 35px;
+ font-size: 23px;
+ color: white;
+    opacity: 0.5;
+    font-family: 'Raleway', sans-serif;
+}
+#bayraq{
+    clip-path: circle(30%);
+   width: 56px;
+   margin-top: -1px;
+}
+#fa-user{
+    margin-right: 15px;
+    font-size: 25px;
+}
+#fa-search{
+    margin-right: 30px;
+    font-size: 25px;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>HEADER<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.big-box{
+    position: absolute;
+    border: 1px solid gray;
+    width: 1200px;
+    height: 500px;
+    right:6.03%;
+    top: 148px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.1);
+}
+.big-box:hover{
+    box-shadow: 0px 10px 10px #BA6F47,10px 0px 10px #A95363
+  
+}
+.cards{
+    width: 320px;
+    height: 500px;
+    display: inline-block;
+    background: #ffffff;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.16);
+    z-index: 1;
+}
+.cards:hover{
+    box-shadow: 0px 10px 10px #BA6F47,10px 0px 10px #A95363
+  
+}
+#card1{
+    position: absolute;
+    left: 80px;
+     top: 696px;
+
+}
+#card2{
+    position: absolute;
+
+ left: 510px;
+ top: 796px;
+}
+#card3{
+    
+position: absolute;
+left: 9500px;
+top: 896px;
+}
+#card4{
+    position: absolute;
+ left: 80px;
+ top: 1344px;
+
+}
+#card5{
+    position: absolute;
+    left: 510px;
+    top: 1444px;
+}
+#card6{
+    position: absolute;
+    left: 950px;
+    top: 1544px;
+}
+/*>>>>>>>>>>>>>>>>>>>>>FOOTER HISSESI<<<<<<<<<<<<<<<<<<<<<<<<<*/
+ #footer{
+        position: absolute;
+    width: 1366px;
+    height: 600px;
+    left: 0px;
+    top: 1770px;
+    background: linear-gradient(180deg, #BD7344 -47.77%, #A64F67 51.52%, #1A2A6C 143.86%);
+    clip-path: polygon(0 0,100% 50%,100% 100%,0% 100%);
+    }
+    #footer-p{
+        position: relative;
+        top: 500px;
+        left: 30px;
+        height: 14px;
+        font-family: 'Raleway', sans-serif;
+        color: white;
+        
+    }
+    .footer-cards{
+        width: 320px;
+        height: 80px;
+        background: #C4C4C4;
+        font-size: 40px;
+       text-align: center;
+       
+        font-family: 'Raleway', sans-serif;
+    }
+    .footer-cards:hover{
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.16);
+    }
+
+#footercard1{
+  position: relative;
+    left: 80px;
+    top: 160px;
+}
+#footercard2{
+    position: relative;
+    left: 520px;
+    top: 190px;
+}
+#footercard3{
+    position: relative;
+    left: 960px;
+    top: 220px;
+    
+}
+#footer ul li{
+    display: inline-block;
+    position: relative;
+    left: 430px;
+    top:220px;
+    padding: 10px;
+    
+    
+}
+.button{
+    width: 43px;
+    height: 43px;
+    border-radius: 5px;
+    background-color: #B39FB4;
+    font-size: 43px;
+    color: #724269;
+}
+
+  .fab{
+      color:#B39FB4;
+  }
+  #tel{
+      color: #724269;
+  }
+  #insta{
+      color:#724269;
+      text-align: center;
+  }
+#footer ul li:hover{
+    transition: 2.5s;
+    transform: rotate(360deg);
+}
+   #angle-up{
+   position: fixed;
+   top:590px;
+   left: 1310px;
+   width: 28px;
+   opacity: 0.6;
+   }
